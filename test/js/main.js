@@ -2,7 +2,7 @@
     // 传输视频，不传输音频
     const mediaStreamConstraints = {
       video: true,
-      audio: false
+      audio: true,
     };
     
     // 设置只交换视频
