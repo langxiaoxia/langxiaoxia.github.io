@@ -8,7 +8,7 @@
   <script src="https://cdn.jsdelivr.net/npm/hls.js@1"></script>
   <!-- Or if you want the latest version from the main branch -->
   <!-- <script src="https://cdn.jsdelivr.net/npm/hls.js@canary"></script> -->
-  <video id="my_video" controls></video>
+  <video id="my_video" controls autoplay playsinline></video>
   <script>
     var video = document.getElementById('my_video');
     var videoSrc = 'https://192.168.131.37:8081/live.m3u8?camera_id=demo';
