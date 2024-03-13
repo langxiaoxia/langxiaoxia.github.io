@@ -8,11 +8,10 @@
   <script src="https://cdn.jsdelivr.net/npm/hls.js@1"></script>
   <!-- Or if you want the latest version from the main branch -->
   <!-- <script src="https://cdn.jsdelivr.net/npm/hls.js@canary"></script> -->
-  <video id="my_video" controls></video>
+  <video id="my_video" controls autoplay playsinline></video>
   <script>
     var video = document.getElementById('my_video');
-    // var videoSrc = 'https://24vspio6m5.execute-api.us-east-1.amazonaws.com/replay.m3u8?camera_id=demo&start=2022-06-16 08:43:00&end=2022-06-16 08:53:00';
-    var videoSrc = 'https://24vspio6m5.execute-api.us-east-1.amazonaws.com/replay.m3u8?camera_id=demo&start=2022-06-16 09:34:00&end=2022-06-16 09:44:00';
+    var videoSrc = 'https://192.168.131.37:8081/replay.m3u8?camera_id=demo&start=2024-03-11 06:04:00&end=2024-03-11 06:12:59';
     //
     // First check for native browser HLS support
     //
